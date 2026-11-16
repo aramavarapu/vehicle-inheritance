@@ -4,6 +4,12 @@ public class SemiTruck extends Vehicle {
     public boolean hasTrailer;
     public int numberOfWheels;
 
+    public SemiTruck(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, boolean hasTrailer, int numberOfWheels) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.hasTrailer = hasTrailer;
+        this.numberOfWheels = numberOfWheels;
+    }
+
     public boolean isHasTrailer() {
         return hasTrailer;
     }

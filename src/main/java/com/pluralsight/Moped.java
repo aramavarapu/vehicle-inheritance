@@ -5,6 +5,13 @@ public class Moped extends Vehicle{
     private boolean hasPedals;
     public int numberOfWheels;
 
+    public Moped(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, boolean hasKickstand, boolean hasPedals, int numberOfWheels) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.hasKickstand = hasKickstand;
+        this.hasPedals = hasPedals;
+        this.numberOfWheels = numberOfWheels;
+    }
+
     public boolean isHasKickstand() {
         return hasKickstand;
     }
