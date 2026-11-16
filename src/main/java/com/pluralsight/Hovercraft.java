@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Hovercraft {
+public class Hovercraft extends Vehicle {
     public boolean isInflated;
 
     public boolean isInflated() {
